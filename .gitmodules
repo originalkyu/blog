@@ -2,6 +2,3 @@
 	path = public
 	url = git@github.com-originalkyu:originalkyu/originalkyu.github.io.git
 	branch = main
-[submodule "themes/hugo-paper"]
-	path = themes/hugo-paper
-	url = git@github.com-originalkyu:originalkyu/hugo-paper.git
