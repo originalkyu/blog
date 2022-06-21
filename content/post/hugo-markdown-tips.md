@@ -21,7 +21,7 @@ draft: false
 | 임선영  | 엄마  | 30 |
 | 김민수  | 아들  | 2  |
 
-- ###토글
+- ### 토글
 <details>
 <summary>Click to toggle code</summary>
 
@@ -29,3 +29,6 @@ draft: false
 
 ```
 </details>
+
+- ### 이미지 올리는 법
+{{< figure src="/images/puppy.jpg" title="mydog">}}
