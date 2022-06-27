@@ -7,6 +7,11 @@ draft: false
 <details>
 <summary> Code </summary>
 ```
-dd
+hugo
 ```
 </details>
+
+<script>
+    console.log('Hello World');
+</script>
+
