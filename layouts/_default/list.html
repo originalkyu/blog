@@ -9,7 +9,11 @@
     </h2>
     {{ range .Pages }}
         <h4>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <ul>
+                <li>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>
+            </ul>
         </h4>
     {{ end }}
 {{ end }}
