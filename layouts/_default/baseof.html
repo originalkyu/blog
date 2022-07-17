@@ -1,5 +1,12 @@
 {{ if eq .Type "mywork1"}}
 	{{ partial "mywork1.html" . }}
+
+{{ else if eq .Type "htmlcssjss-sp1"}}
+	{{ partial "htmlcssjss-sp1" . }}
+
+{{ else if eq .Type "htmlcssjss-sp2"}}
+	{{ partial "htmlcssjss-sp2" . }}
+
 {{ else }}
 <!DOCTYPE html>
 <html lang="{{ site.LanguageCode | default `en-US` }}">
